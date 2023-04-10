@@ -24,7 +24,7 @@ import {
 @Update()
 export class BotUpdate {
   constructor(
-    @InjectBot('test-contest') private readonly bot: Telegraf<Context>,
+    @InjectBot('soakcare_bot') private readonly bot: Telegraf<Context>,
     private readonly userService: UserService,
   ) {}
 
